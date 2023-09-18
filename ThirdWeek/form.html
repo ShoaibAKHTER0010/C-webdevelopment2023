@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <div><form action="#" method="post">
+        <fieldset>
+            <legend>Caravan Booking Form</legend>
+            <!-- first name -->
+            <label for="name">First Name</label><br>
+            <input type="text" name="First Name" placeholder="First Name" required> 
+             <!-- lastname -->
+             <label for="name">Last Name</label>
+            <input type="text" name="Last Name" placeholder="Last Name" required><br><br>
+            <!-- email -->
+            <label for="email">Email Address</label><br>
+            <input type="email" name="email" placeholder="Enter your Email Address">
+            <br><br>
+            <!-- number -->
+            <label for="PhoneNumber">PhoneNumber</label><br>
+            <input type="PhoneNumber" name="PhoneNumber" id="PhoneNumber" placeholder="Enter your PhoneNumber">
+            <br><br>
+            <div class="form-group"><br>
+                <input type="date" name="Check-In" class="form-control clickable input-md" id="DtCheckin" placeholder="Check-In date">
+                <input type="date" name="Check-Out" class="form-control clickable input-md" name="Check-Out" id="DtCheckout" 
+                placeholder="Check-Out date">
+              </div><br><br>
+              <select name="Number of Guest" id="Number of Guest" placeholder="Select Number of Guest"><br>
+
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="1">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select><br><br>
+            <label >Caravan Type</label>
+            <br><br>
+            <input type="radio" name="Caravan Type" id="Sandard">
+            <label for="Sandard">Sandard</label>
+            <input type="radio" name="Caravan Type" id="Deluxe">
+            <label for="Deluxe">Deluxe</label>
+            <input type="radio" name="Caravan Type" id="Luxury">
+            <label for="Luxury">Luxury</label <br><br><br>
+                <input type="checkbox" name="agree" id="I agree to the term and condition." required>
+                <label for="I agree to the term and condition.">I agree to the term and condition.</label><br><br>
+                
+             
+       </fieldset>
+    </form>
+    </div>
+</body>
+</html>
