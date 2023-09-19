@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<style>
+    .email{
+        width: 340px;
+    }
+    .PhoneNumber{
+        
+        width: 340px;
+    }
+</style>
+<body>
+    <div><form action="#" method="post">
+        <fieldset>
+            <legend>Caravan Booking Form</legend>
+            <pre>please fill out the form to book your caravan stay.</pre>
+            <!-- first name -->
+            <label for="name"><b>First Name</b></label>
+            <label for="name" style="margin-left: 100px;"><b>Last Name</b></label>
+             <br>
+            <!-- lastname -->
+            <input type="text" name="First Name" placeholder="First Name" required>
+                <input type="text" name="Last Name" placeholder="Last Name" required><br><br>  
+            <br>
+            <!-- email -->
+            <label for="email"><b>Email Address</b></label><br>
+            <input class="email" type="email" name="email" placeholder="Enter your Email Address">
+            <br><br>
+            <!-- number -->
+            <label for="PhoneNumber"><b>PhoneNumber</b></label><br>
+            <input class="PhoneNumber" type="PhoneNumber" name="PhoneNumber" id="PhoneNumber" placeholder="Enter your PhoneNumber           ">
+            <br><br>
+            <!-- check date -->
+            <label for="Check-In Date"><b>Check-In Date</b></label>
+            <label for="Check-Out Date" style="margin-left: 65px;"><b>Check-Out Date</b></label>
+            <br>
+            <input type="date" name="Check-In Date" id="Check-In Date" placeholder="select your check-in date" >
+            <input type="date" name="Check-Out Date" style="margin-left: 50px;" id="Check-Out Date" placeholder="select your check-out date">
+            <br><br>
+            <!-- for options -->
+                <label for="Number of Guest"><b>Number of Guests</b></label><br>
+              <select name="Number of Guest" placeholder="Select Number of Guest">
+                <option value="o">selecte number of Guests</option>
+                <option value="2">2 Guests</option>
+                <option value="3">3 Guests</option>
+                <option value="4">4 Guests</option>
+                <option value="5">5 Guests</option>
+                <option value="6">6 Guests</option>
+            </select><br>
+            <br>
+            <!-- for radio -->
+            <label ><b>Caravan Type</b></label><br><br>
+            <input type="radio" name="Caravan Type" id="Sandard">
+            <label for="Sandard">Sandard</label>
+            <input type="radio" name="Caravan Type" id="Deluxe" style="margin-left: 100px;">
+            <label for="Deluxe">Deluxe</label>
+            <input type="radio" name="Caravan Type" id="Luxury" style="margin-left: 100px;">
+            <label for="Luxury">Luxury</label <br><br><br>
+                <!-- for checkbox -->
+                <label><b>Add-ons</b></label><br><br>
+                <input type="checkbox" name="Add-ons" id="Towel">
+                <label for="Towel" >Towel</label>
+                <input type="checkbox" name="Add-ons" id="Bedding" style="margin-left: 100px;">
+                <label for="Bedding">Bedding</label><br><br>
+                <input type="checkbox" name="Add-ons" id="Cleaning">
+                <label for="Cleaning">Cleaning</label>
+                <input type="checkbox" name="Add-ons" id="Other"  style="margin-left: 80px;">
+                <label for="Other">Other</label><br><br>
+                <!-- aggriment -->
+                <input type="checkbox" name="agree" id="I agree to the term and condition." required>
+                <label for="I agree to the term and condition.">I agree to the term and condition.</label><br><br>
+                <!-- botton -->
+                <center><button style="background-color: darkblue; color: #fff;" name="Submit Booking Reguest" placeholder="Submit Booking Reguest">Submit Booking Reguest</button></center>
+            
+    </fieldset>
+    </form>
+    </div>
+</body>
+</html>
