@@ -1,0 +1,119 @@
+body{
+   background-color: sienna;
+}
+.outer{
+    background-color: wheat;
+    color: green;
+    border-style: dotted;
+}
+.text{
+    background-color:green;
+    color: white;
+    border: color 2px solid;
+    width: 25%;
+}
+.text2{text-align: center;
+
+}
+#one{text-decoration: underline;
+    }
+ #two{
+    text-decoration: overline;
+ }  
+ #three{
+    text-decoration: line-through;
+ } 
+ #normal{
+    font-weight: normal;
+ }
+ #bold{
+    font-weight: bold;
+ }
+ #bolder{
+    font-weight: bolder;
+ }
+ 
+ #light{
+    font-weight: light;
+ }
+ #lighter{
+    font-weight: lighter;
+ }
+ #value{
+    font-weight: 800;
+ }
+ .style{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .colour{
+    color: #ff4800;
+ }
+ /* total styling */
+ .divone{
+   border: 5px inset goldenrod;
+   background-color: rgb(192, 132, 248);
+ }
+.divtwo{
+   border: 5px inset goldenrod;
+   width: 40%;
+   background-color: rgb(192, 132, 248);
+ }
+.divthree{
+   border: 5px inset purple;
+      
+   } 
+.divfour{
+   border: 5px inset goldenrod;
+   width: 40%;
+   background-color: rgb(192, 132, 248);
+   float: right;
+   
+ }
+ 
+.divfive{
+   border: 5px inset goldenrod;
+   width: 40%;
+   background-color: rgb(192, 132, 248);
+}
+.divsix{
+   border: 5px inset goldenrod;
+   width: 40%;
+   background-color: rgb(192, 132, 248);
+   #idone{
+     text-transform: uppercase;
+   }
+}
+.divseven{
+   border: 5px inset goldenrod;
+   width: 40%;
+   background-color: rgb(192, 132, 248);
+   float: right;
+   #idtwo{
+      line-height: 1.5em;
+   }
+}
+.diveight{
+   border: 5px inset goldenrod;
+   width: 40%;
+   background-color: rgb(192, 132, 248);
+   #idthree{
+      letter-spacing: 0.2em;
+   }
+}
+.divnine{
+   border: 5px inset goldenrod;
+   width: 40%;
+   background-color: rgb(192, 132, 248);
+   float: right;
+   #idfour{
+      word-spacing: 0.2em;
+   }
+}
+.divten{
+   border: 5px inset goldenrod;
+   width: 40%;
+   background-color: rgb(192, 132, 248);
+   #idfive{
+      text-shadow: 4px 4px 2px rgb(233, 19, 19);
+   }
+}

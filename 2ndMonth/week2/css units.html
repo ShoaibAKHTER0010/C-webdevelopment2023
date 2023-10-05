@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>units of css</title>
+    <style> 
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .house{
+        background-color: aqua;
+        border: 2px solid darkred;
+        width: 100%;
+    }
+    .room{
+    background-color: chocolate;
+    border: 2px solid red;
+    width: 25%;
+    }
+    .container{
+    background-color: cadetblue;
+    border: 1px solid green;
+    height: 25vh;
+    width: 25vw;
+    }
+    .px{
+    border: 2px solid black;
+    font-size: 50px;
+    }
+    .parent{
+    font-size: 20px;
+    }
+    .child{ 
+    font-size: 5em;
+    
+    }
+    .rem{
+    font-size: 5rem;
+    }</style>
+</head>
+<body> <header> <h2> Absolute and Relitive Units in css</h2></header>
+    <!-- percentage% -->
+ <div class="house"><div class="room"><h3>percentage %</h3>
+ <p>Lorem ipsum dolor sit amet consectetur.</p></div> </div><br> 
+<!-- viewport height and width-->
+<div class="container"><h3>VH and VW</h3> <p>Lorem ipsum dolor sit amet consectetur.</p></div><br>
+<!-- pixel .px -->
+<h3>PX</h3>
+<div class="px"><p>shoaib akhter</p></div><br>
+<!-- em -->
+<h3>EM</h3>
+<div class="parent"><p>hello class</p>
+    <div class="child"><p>hello world</p></div>
+</div><br>
+<h3>REM</h3>
+<div class="rem"><p>hiiii hello</p></div>
+
+</body>
+</html>
