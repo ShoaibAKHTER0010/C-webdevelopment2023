@@ -1,0 +1,117 @@
+.h2{
+    border: 2px solid black;
+    width: 50%;
+    background-color: cadetblue;
+    color: aliceblue;
+    padding: 10px;
+}
+.container{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: aquamarine;
+    
+
+}
+.one{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 110px;
+    width: 100px;
+    background-color: cornflowerblue;
+    /* position: static; */
+    /* position: relative;top: 10px; */
+}
+.two{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 110px;
+    width: 100px;
+    background-color: cornflowerblue;
+     /* position: static; */
+     position: relative;left: 20px;
+}
+.three{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 110px;
+    width: 100px;
+    background-color: cornflowerblue;
+     /* position: static; */
+     /* position: absolute; */
+     /* bottom: 20px; */
+     
+}
+.four{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 110px;
+    width: 100px;
+    background-color: cornflowerblue;
+     /* position: static; */
+     position: relative;left: 20px;
+     
+}
+/* 2ndcontainer */
+
+.container2{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: aquamarine;
+    overflow: auto;
+    height: 250px;
+    position: sticky;
+   
+}
+.five{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 110px;
+    width: 100px;
+    border-radius: 40px;
+    background-color: bisque;
+   text-shadow: 4px 4px 2px purple; 
+   box-shadow: 6px 6px 4px purple;
+}
+.six{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 110px;
+    width: 100px;
+    border-radius: 40px;
+    background-color: bisque;
+    /* position: fixed; */
+    text-shadow: 4px 4px 2px red;
+    box-shadow: 6px 6px 4px red;
+
+}
+.seven{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 110px;
+    width: 100px;
+    border-radius: 40px;
+    background-color: bisque;
+    text-shadow: 4px 4px 2px green;
+    box-shadow: 6px 6px 4px green;
+}
+.eight{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 110px;
+    width: 100px;
+    border-radius: 40px;
+    background-color: bisque;
+    text-shadow: 4px 4px 2px blue;
+    box-shadow: 6px 6px 4px blue;
+}
+    

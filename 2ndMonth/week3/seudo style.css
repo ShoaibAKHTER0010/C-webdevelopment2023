@@ -1,0 +1,99 @@
+body{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px,20px ;
+}
+.divone{
+    float: left;
+    width:40%;
+    height:38vh
+}
+.divtwo{
+    
+    float: right;
+    width: 50;
+    height:38vh
+ 
+}
+a:link{
+    color: brown;
+    background-color: rgba(255,0,0,.5 );
+}
+a:active{
+    color:red
+}
+a:focus{
+    background-color: aqua;
+}
+a:hover{
+    color:white;
+    background-color: red;
+}
+a:focus-within{
+    text-decoration:dotted navy ;
+}
+a:visited{
+    color: green;
+}
+a:focus-visible{
+    outline-style: auto;
+}
+/* seudo-elements */
+.first::before{
+    content: --;
+    display: block ;
+    width: 10px;
+    height: 10px; 
+    background-color: darkmagenta;
+}
+.first::after{
+    content: --;
+    display: block ;
+    width: 10px;
+    height: 10px; 
+    background-color: darkmagenta;
+}
+.first::placeholder{
+    color: blue;
+    background-color: cadetblue;
+}
+#name::first-letter{
+    color: brown;
+    font-size: larger;
+    font-family: fantasy;
+}
+#ul::marker{
+    list-style-type: square;
+    color: darkgreen;
+}
+/* scrollbar */
+.style{
+    width: 150px;
+    height: 170px; 
+    margin: 50px 20px;
+    border: 4px inset green;
+    overflow: auto;
+}
+.style::-webkit-scrollbar{
+    width: 20px;
+}
+.style::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background: linear-gradient(green, yellow);
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+}
+.style::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: rgb(255, 0, 13);
+}
+#h3{
+    color: darkgreen;
+    background-color: darkkhaki;
+    border-style: solid  2px gray inset;
+   }
+.h2,h22{
+    color: darkgreen;
+    background-color: darkkhaki;
+    border-style: inset 2px gray;
+}
+
