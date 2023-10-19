@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+}
+.grid-layout {
+    display: grid;
+    grid-template-areas: "haeder header " "sidebar main " "  footer footer  ";
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 300px 1fr ;
+    height: 100vh;
+}
+   
+.header {
+    padding: 20px;
+    grid-area: header ;
+    background: rgb(212, 223, 164);
+    
+}
+.sidebar{
+    grid-area: sidebar;
+    background-color: rgb(139, 129, 191);
+}
+.mainContent {
+    grid-area: main;
+    background-color: rgb(166, 105, 105);
+}
+.footer {
+    padding: 20px;
+    grid-area: footer;
+    background-color: rgb(155, 167, 88);
+}
+.div{
+    display: grid;
+    background-color: aqua;
+    width: 200px;}

@@ -1,0 +1,93 @@
+.section{
+    background-color: rgb(48, 112, 48);
+    height: 100%;
+    display: grid;
+    row-gap: 70px; 
+    column-gap: 12px;
+    
+    grid-template-columns: repeat(2, 100px)max-content;
+    grid-template-rows: 100px, min-content;
+    /* justify content */
+    justify-content: center;
+    
+    /* justify-content: normal;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: stretch; */
+    
+    /* justify item
+    justify-items: start;
+    justify-items: end;
+    justify-items: center;
+    justify-items: stretch;
+    */
+    /* justify self
+    justify-self: auto;
+    justify-self: start;
+    justify-self: end;
+    justify-self: center;
+    justify-self: stretch;
+    */
+
+
+    /* aling content
+    align-content: normal;
+    align-content: center;
+	align-content: flex-start;
+    align-content: flex-end;
+    align-content: space-between;
+    align-content: space-around;
+    align-content: space-evenly;
+    align-content: baseline;
+	align-content: stretch; */
+
+    /* align-items
+    align-items: flex-start
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline;
+    align-items: stretch;*/
+
+    /* align-self
+    align-self: auto;
+    align-self: flex-start;
+    align-self: flex-end;
+    align-self: center;
+    align-self: stretch;
+    align-self: baseline;
+    */
+    
+
+    
+}
+.heading3{
+    background-color: #22311f;
+    color: red;
+    grid-template-rows: min-content;max-height: 300px;min-height: 250px;
+
+
+    
+}
+.heading4{
+    background-color: #2a4631;
+    color: red;
+   
+    
+}
+.heading5{
+    background-color: #35473a;
+    color: red;
+    
+}
+.heading6{
+    background-color: #405a4a;
+    color: red;
+    max-height: 250px;
+    width: 200px;
+    align-items: center;
+    
+}
