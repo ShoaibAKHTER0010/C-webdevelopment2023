@@ -1,4 +1,4 @@
 # C-webdevelopment2023
-this is my first repository
+totorial classes
 <hr>
- author:shoaib akhter.
+ twitter:shoaib akhter.
